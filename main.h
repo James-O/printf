@@ -5,11 +5,11 @@
 #include <stdarg.h>
 
 /**
- * struct flags - struct containing flags to "turn on"
+ * struct flags - The struct containing flags to "turn on"
  * when a flag specifier is passed to _printf()
  * @plus: flag for the '+' character
  * @space: flag for the ' ' character
- * @hash: flag for the '#' character
+ * @hash: flag for the '#' char.
  */
 
 typedef struct flags
@@ -25,6 +25,7 @@ int hash;
  * @c: format specifier
  * @f: pointer to the correct printing function
  */
+
 typedef struct printHandler
 {
 char c;
